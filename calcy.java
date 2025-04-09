@@ -32,7 +32,7 @@ class div{
          int x,y,result;     
         int div(){
           if(x == 0 ){
-            System.out.println("Something Went Wrong!")
+            System.out.println("Something Went Wrong!");
           }
 
           result = x / y ;
@@ -59,7 +59,7 @@ class Calcy{
         System.out.println(res2);
         System.out.println(res3);
         System.out.println(res2);
-	System.out.println("this is the one ");
+	    System.out.println("this is the one ");
         
         
     }
