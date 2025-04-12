@@ -36,3 +36,14 @@ class BoolTest{
         System.out.println("10 > 9 is " + (10 > 9));
     }
 }
+
+class LogicalTest{
+    public static void main(String []args){
+        int x = 23;
+        int y = 2;
+        int a = 34;
+        int b = 3;
+        boolean result = x>y & a <b;
+        System.out.println(result);
+    }
+}
