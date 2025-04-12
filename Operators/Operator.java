@@ -42,8 +42,8 @@ class LogicalTest{
         int x = 23;
         int y = 2;
         int a = 34;
-        int b = 3;
-        boolean result = x>y & a <b;
+        int b = 356;
+        boolean result = x>y && a <b;
         System.out.println(result);
     }
 }
