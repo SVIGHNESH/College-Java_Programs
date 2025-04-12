@@ -47,3 +47,8 @@ class LogicalTest{
         System.out.println(result);
     }
 }
+class LogicalTest2{
+    public static void main(String []args){
+        System.out.println("Not Sure!!!");
+    }
+}
