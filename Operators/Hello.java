@@ -1,4 +1,6 @@
 public class Hello{
+            int y = 23;
+	    int x = 24;
 
     public static void main(String []args){
             // int a = 257;
@@ -10,10 +12,13 @@ public class Hello{
 
             // System.out.println(f);
             // System.out.println(num2);
+	    //
             byte a = 23;
             byte b = 20;
             int result = a * b;
             System.out.println(result);
+            System.out.println(y);
+            System.out.println(x);
     }
 
 }
