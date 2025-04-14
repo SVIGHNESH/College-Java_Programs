@@ -1,6 +1,9 @@
+package Control_Statements;
+
+
 class Switch{
     public static void main(String []args){
-        int n = 10; 
+        int n = 1;
         switch(n){
 
             case 1 :
