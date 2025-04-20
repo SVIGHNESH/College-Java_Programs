@@ -10,9 +10,13 @@ class Calculator{
             }
             int add(int n1,int n2,int n3){
                 return n1+n2+n3;
-
             }
-}
+            double add(double n1,double n2,double n3){
+                    return n1+n2+n3;
+    
+                }
+    }
+
 class Demo{
     public static void main(String []a)
         {
@@ -22,6 +26,9 @@ class Demo{
         System.out.println(obj.add(23));
         System.out.println(obj.add());
         System.out.println(obj.add(24,34,12));
+        System.out.println(obj.add(24,34,12));
+        System.out.println(obj.add(24.42,34.54,12.43));
+            
     }
     
     
