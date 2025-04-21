@@ -31,7 +31,7 @@ class C1{
     
     ob.m1();
     ob.m2();
-    // ob.m3();
+    // ob.m3();   //this will give the error because the m3 is not defined by the A1
 
     ob1.callParentM1();
     ob1.m2();
