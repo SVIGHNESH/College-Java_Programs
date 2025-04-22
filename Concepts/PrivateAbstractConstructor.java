@@ -50,6 +50,11 @@ class Car extends Vehicle{
 class PrivateAbstractConstructor{
   public static void main(String[] args) {
     Car ob = new Car();
+    boolean yes = ob instanceof Car;
+    System.out.println(yes);
+    boolean isVehicle = ob instanceof Vehicle;
+    System.out.println(isVehicle);
+
     
   }
 } 
