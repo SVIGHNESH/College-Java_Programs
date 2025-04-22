@@ -42,6 +42,8 @@ abstract class Vehicle{
 class Car extends Vehicle{
   Car(){
     // super(321);
+
+    super();
     }
 }
 
