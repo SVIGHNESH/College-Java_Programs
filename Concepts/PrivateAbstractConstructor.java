@@ -3,7 +3,7 @@
  * We can Declare the Constructor as a Private
  */
 
-/*abstract class Vehicle{
+abstract class Vehicle{
      private  Vehicle(){
         System.out.println("Constructor of the Vehicle Class");
       }
@@ -21,15 +21,15 @@ class car extends Vehicle{
       
   }
 }
-*/
 
 
-abstract class Vehicle{
-  Vehicle(){
-      this(342);
-      System.out.println("abstract Class Default Constructor");
+
+/*abstract class Vehicle{
+  // Vehicle(){
+  //     this(342);
+  //     System.out.println("abstract Class Default Constructor");
       
-  }
+  // }
   private Vehicle(int speed){
 
       System.out.println("abstract Class parameterised Private Constructor" + speed );
@@ -42,8 +42,6 @@ abstract class Vehicle{
 class Car extends Vehicle{
   Car(){
     // super(321);
-
-    super();
     }
 }
 
@@ -58,3 +56,5 @@ class PrivateAbstractConstructor{
     
   }
 } 
+
+*/

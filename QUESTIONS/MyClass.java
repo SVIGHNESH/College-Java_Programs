@@ -1,7 +1,12 @@
 public class MyClass {
-   public static HELO myobj;
+   public static HELO myobj =  new HELO();
    
-   static{
+   /*static{
     myobj = new HELO();
+   } */
+
+   String toString(){
+       System.out.println("THeirj'l");
    }
+  
 }
