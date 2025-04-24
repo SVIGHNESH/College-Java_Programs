@@ -1,4 +1,4 @@
-package MyPack;
+package Packages.MyPack;
 
 class Balance {
     String name;
