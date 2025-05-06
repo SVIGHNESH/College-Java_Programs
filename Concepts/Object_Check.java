@@ -4,7 +4,8 @@ public class Object_Check {
       Object_Check ob = new Object_Check();
       System.out.println(ob);
       public String  toString(){
-        return "HElLO ";
+        return "HEll"
+
       }
   }
 }
