@@ -10,6 +10,7 @@ public class one{
         num[2] = 44;
 
         System.out.println(num[0]);
+        System.out.println(num[5]);
         System.out.println(num[1]);
         System.out.println(num[2]);
         int arr[] = new int[4];
