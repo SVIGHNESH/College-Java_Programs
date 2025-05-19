@@ -16,4 +16,4 @@ public class functionalInterface {
 
         ob.show();
     }
-}
+} 
