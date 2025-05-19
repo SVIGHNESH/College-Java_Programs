@@ -11,6 +11,7 @@ class BoxDemo{
 		box1.height = 10;
 
 		double volume;
+
 		volume = box1.length * box1.width * box1.height;
 		System.out.println("The Volume of the given BOx is");
 		System.out.println("The Volume of the given BOx is " + volume);
