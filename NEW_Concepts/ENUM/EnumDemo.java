@@ -1,3 +1,4 @@
+package ENUM;
 enum Status {
   Running, Failed, Pending, Success;
 }

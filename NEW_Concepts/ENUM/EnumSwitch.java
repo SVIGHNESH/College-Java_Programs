@@ -1,3 +1,4 @@
+package ENUM;
 enum Process {
     Ready, Running, Waiting, Terminated;
 }

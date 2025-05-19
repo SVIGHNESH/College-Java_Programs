@@ -1,3 +1,4 @@
+package ENUM;
 enum Laptop{
     Macbook(84320),VICTUs(34873),Legion(38479),ThinkPad(4937);
 

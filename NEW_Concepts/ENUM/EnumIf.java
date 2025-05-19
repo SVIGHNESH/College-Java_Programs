@@ -1,3 +1,4 @@
+package ENUM;
 enum Sts{
     Pending,Running,Success,Failed;
 
