@@ -1,8 +1,20 @@
-class A {
+class A extends Thread{
 
-    public void show() {
-        for (int i = 0; i < 10; i++) {
+    public void run() {
+        for (int i = 0; i < 20; i++) {
             System.out.println("Hi ");
+
+
+        }
+    }
+}
+class  B extends Thread {
+
+    public void run() {
+        for (int i = 0; i < 20; i++) {
+            System.out.println("Hello");
+            System.out.println("");
+            
 
 
         }
@@ -11,7 +23,12 @@ class A {
 
 public class DemoOfThreads {
     public static void main(String[] args) {
-        System.out.println("");
-        System.out.println();
+        A obj1 = new A();
+        B obj2 = new B();
+
+        obj1.start();
+        obj2.start();
+        
+        
     }
 }
