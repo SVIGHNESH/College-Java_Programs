@@ -22,13 +22,14 @@ class MyPrinter{
 
 class firstMethodReference{
         public static void main(String[] args) {
-            String str = "Vighnesh Shukla";
+            String str = "Vig";
             MyPrinter ob = new MyPrinter();
-            ob.print(str,new Parser(){
-                public String parse(String str){
-                          return  StringParser.convert(str);
-                }
-            }); 
+            // ob.print(str,(String s) ->{
+            //               return  StringParser.convert(s);
 
+            // }); 
+
+            // ob.print(str, (s -> StringParser.convert(s)));
+            ob.print(str, (StringParser::convert));   
         }
 }
