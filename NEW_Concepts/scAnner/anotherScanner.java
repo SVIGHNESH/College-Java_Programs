@@ -13,6 +13,7 @@ public class anotherScanner {
 
          
           num = Integer.parseInt(bf.readLine());
+          System.out.println("This is your num :" +num);
 
     
     }
