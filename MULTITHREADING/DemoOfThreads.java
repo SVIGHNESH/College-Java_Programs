@@ -1,8 +1,15 @@
 class A extends Thread{
 
-    public void run() {
+    synchronized public void run() {
         for (int i = 0; i < 20; i++) {
             System.out.println("Hi ");
+            // try{
+            // Thread.sleep(10);
+
+            // }
+            // catch(InterruptedException e ){
+            //     System.out.println("Thrown the Interruption");
+            // }
 
 
         }
@@ -10,10 +17,17 @@ class A extends Thread{
 }
 class  B extends Thread {
 
-    public void run() {
+   synchronized public void run() {
         for (int i = 0; i < 20; i++) {
             System.out.println("Hello");
-            System.out.println("");
+            // System.out.println("");
+            // try{
+            // Thread.sleep(15);
+
+            // }
+            // catch(InterruptedException e ){
+            //     System.out.println("Thrown the Interruption");
+            // }
             
 
 
@@ -28,6 +42,7 @@ public class DemoOfThreads {
 
         obj1.start();
         obj2.start();
+        
         
         
     }
