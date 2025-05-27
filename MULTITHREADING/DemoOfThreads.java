@@ -1,6 +1,6 @@
 class Counter{
     int count;
-    public void increament(){
+    public synchronized void increament(){
         count++;
     }
 }
@@ -46,22 +46,25 @@ class Counter{
 //     }
 // }
 
-public class DemoOfThreads {
-    public static void main(String[] args) {
+public class DemoOfThreads{
+    public static void main(String[] args) throws InterruptedException {
 
         Counter c = new Counter();
 
 
         Runnable obj1 = () -> 
             {
-                for(int i=0;i<1000;i++){
+                for(int i=0;i<10000;i++){
                         c.increament();
                 }
             };
         Runnable obj2 = () -> 
             {
-                for(int i=0;i<1000;i++){
+                for(int i=0;i<10000;i++){
                         c.increament();
+                        if(i == 100){
+                            
+                        }
                 }
                 
             };
@@ -72,6 +75,10 @@ public class DemoOfThreads {
 
         t1.start();
         t2.start();
+
+        t1.join();
+        t2.join();
+        
         System.out.println(c.count);
 
 
