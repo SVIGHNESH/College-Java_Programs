@@ -1,12 +1,6 @@
 import java.util.HashMap;
-import java.util.InputMismatchException;
 import java.util.Map;
-import java.util.Scanner;
-
 public class myhashmap {
-
-
-
     public static void main(String[] args) {
         Map<String,Integer> Students = new HashMap<>();
         Students.put("V",43);
