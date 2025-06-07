@@ -1,12 +1,13 @@
 // import java.util.HashSet;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.ArrayList;
+import java.util.List;
+
 
 class Main{
     public static void main(String[] args) {
 
 
-        Set<Integer> nums = new TreeSet<Integer>();
+        List<Integer> nums = new ArrayList<Integer>();
     
         nums.add(53);
         nums.add(31);
