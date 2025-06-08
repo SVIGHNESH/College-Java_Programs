@@ -27,14 +27,7 @@ public class Comparator1 {
         nums.add(32);
         nums.add(43);
         nums.add(80);
-<<<<<<< HEAD
-
-        //here after using the comparator with the sort method i have add the functionality of the sorting for the first base only not on the basis of the value of the number that functionality is defined in the Comparator implementation of the using the inner anoynmous
-        
-        Collections.sort(nums,com);
-=======
         Collections.sort(nums,);
->>>>>>> Something
         System.out.println(nums);
     
     }
