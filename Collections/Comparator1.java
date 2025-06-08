@@ -34,7 +34,7 @@ class Student implements Comparable<Student>{
 public class Comparator1 {
     public static void main(String[] args) {
 
-        Comparator<Student> com =(Student i,Student j)-> i.age>j.age?1:-1;
+        Comparator<Student> com =(i,j)-> i.age>j.age?1:-1;
        
         
         List<Student> Studs = new ArrayList<>();
