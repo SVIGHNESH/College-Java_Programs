@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 class main{
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IllegalStateException {
         List<Integer> names = Arrays.asList(143,200,30,44,5);
         Stream<Integer> data = names.stream();
 
