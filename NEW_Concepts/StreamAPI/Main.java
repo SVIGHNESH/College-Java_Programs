@@ -6,8 +6,9 @@ import java.util.stream.Stream;
 class Main {
   public static void main(String[] args) throws IllegalStateException {
     List<Integer> names = Arrays.asList(143, 200, 30, 44, 5);
-  Stream<Integer> mappedNames = names.stream().map(n-> n*2);
-  mappedNames.forEach(n -> System.out.println(n));
+  Stream<Integer> Names = names.stream();
+  Stream<Integer> mappStream  = Names.map(n -> n+1);
+  mappStream.forEach(n -> System.out.println(n));    
     
 
 
