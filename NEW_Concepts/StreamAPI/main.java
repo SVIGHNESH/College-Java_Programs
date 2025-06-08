@@ -2,25 +2,22 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-class main{
-    public static void main(String[] args) throws IllegalStateException {
-        List<Integer> names = Arrays.asList(143,200,30,44,5);
-        Stream<Integer> data = names.stream();
+class Main  
+  blic static void main(String[] args) throws IllegalStateException {
+    <Integer> names = Arrays.asList(143, 200 , 30 , 4 4,  5);
+    am<Integer> data = names.stream();
 
+    ong count = data.count();
+    
 
-        // data.forEach(n -> System.out.println(n));
-        // long count = data.count();
+    ystem.out.println("this is to
+    fter it is consumed once the strean can not be used");
+    // 
+    tream<Integer> sortedData = data.sorted();
+    ata.forEach(n -> System.out.println(n));
+    ortedData.forEach(s -> System.out.println(s));
 
-        // System.out.println(count);
-        // System.out.println("this is to show tha.t the stream will only used once after it is consumed once the strean can not be used");
-        // Stream<Integer> sortedData = data.sorted();
-        // data.forEach(n -> System.out.println(n));
-        // sortedData.forEach(s -> System.out.println(s));
+    edData.forEach(n -> System.out.println(n));
+    
 
-
-        Stream<Integer> mappedData = data.map(n -> n * 2);
-        mappedData.forEach(n -> System.out.println(n));
-
-
-    }
-}
+  
