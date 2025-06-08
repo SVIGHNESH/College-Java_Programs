@@ -1,8 +1,25 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-<<<<<<< HEAD
 import java.util.Comparator;
+
+class Student{
+    int age;
+    String name;
+
+    
+    public Student(int age, String name) {
+        this.age = age;
+        this.name = name;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Student [age=" + age + ", name=" + name + "]";
+    }
+    
+}
 
 public class Comparator1 {
     public static void main(String[] args) {
@@ -16,19 +33,16 @@ public class Comparator1 {
 
             }
         };
-=======
-
-public class Comparator1 {
-    public static void main(String[] args) {
->>>>>>> Something
-        List<Integer> nums = new ArrayList<>();
-        nums.add(13);
-        nums.add(54);
-        nums.add(32);
-        nums.add(43);
-        nums.add(80);
-        Collections.sort(nums,);
-        System.out.println(nums);
+        List<Student> Studs = new ArrayList<>();
+        Studs.add(new Student(20, "Vighnesh"));
+        Studs.add(new Student(20, "Suresh"));
+        Studs.add(new Student(2, "Ritik"));
+        Studs.add(new Student(16, "Devang"));
+        //Collections.sort(nums,com);
+        for(Student st: Studs){
+            System.out.println(st);
+        }
+        // System.out.println(nums);
     
     }
 }
