@@ -24,9 +24,9 @@ class Student{
 public class Comparator1 {
     public static void main(String[] args) {
 
-        Comparator<Integer> com = new Comparator<Integer>(){
-            public int compare(Integer i,Integer j){
-                if(i%10>j%10)
+        Comparator<Student> com = new Comparator<Student>(){
+            public int compare(Student i,Student j){
+                if(i.age>j.age)
                     return 1;
                 else
                     return -1;
@@ -38,7 +38,7 @@ public class Comparator1 {
         Studs.add(new Student(20, "Suresh"));
         Studs.add(new Student(2, "Ritik"));
         Studs.add(new Student(16, "Devang"));
-        //Collections.sort(nums,com);
+        Collections.sort(Studs,com);
         for(Student st: Studs){
             System.out.println(st);
         }
