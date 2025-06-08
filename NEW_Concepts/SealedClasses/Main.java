@@ -25,6 +25,15 @@ final class D extends B{
 }
 
 
+sealed interface X permits Y,Z{
+
+}
+ interface Y extends X{
+
+}
+
+
+
 public class Main {
     public static void main(String[] args) {
         var n = new D();
