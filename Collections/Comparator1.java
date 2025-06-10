@@ -35,6 +35,7 @@ public class Comparator1 {
     public static void main(String[] args) {
 
         Comparator<Student> com =(i,j)-> i.age>j.age?1:-1;
+        
        
         
         List<Student> Studs = new ArrayList<>();
@@ -49,5 +50,6 @@ public class Comparator1 {
         }
         // System.out.println(nums);
     
+            //hgdjhgfjgfhkjhgfdsgh,
     }
 }
