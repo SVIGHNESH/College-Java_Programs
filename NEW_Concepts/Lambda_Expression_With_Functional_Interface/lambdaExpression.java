@@ -16,7 +16,8 @@ public class lambdaExpression {
         ob.show(34);
 
         // just ob = (i ) -> System.out.println("Using the lambda expression in the funcitonal interface." + i );
-
+        just ob2 = (i)->System.out.println("ajdf;g");
+    
         
 
         // ob.show(5);
