@@ -1,4 +1,4 @@
-
+package Lambda_Expression_With_Functional_Interface;
 interface just{
     public void show(int i );
     // public void see();

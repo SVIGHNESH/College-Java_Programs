@@ -1,3 +1,4 @@
+package Lambda_Expression_With_Functional_Interface;
 interface C{
     public int add(int i,int j);
 }
