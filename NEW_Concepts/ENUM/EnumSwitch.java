@@ -5,7 +5,7 @@ enum Process {
 
 public class EnumSwitch {
     public static void main(String[] args) {
-        Process s = Process.Terminated;
+        Process s = Process.Ready;
         switch (s) {
             case Ready:
                 System.out.println("The Process is in the Ready State");
@@ -24,6 +24,6 @@ public class EnumSwitch {
 
         }
 
-        System.out.println(s.getClass().getSuperclass());
+        System.out.println(s.getClass());
     }
 }
