@@ -4,6 +4,8 @@ class CurrentThreadDemo {
     System.out.println("Current thread: " + t);
     // change the name of the thread
     t.setName("My Thread");
+    t.setPriority(Thread.MAX_PRIORITY);
+    System.out.println(t.getPriority());
     System.out.println("After name change: " + t);
     try {
       for (int n = 5; n > 0; n--) {
