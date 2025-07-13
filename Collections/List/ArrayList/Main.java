@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+
 class Main{
     public static void main(String[] args) {
 
@@ -17,7 +18,7 @@ class Main{
         // System.out.println("The value at the index 2 is "+nums.get(2));
         // System.out.println("Index value of the 2 is "+nums.indexOf(2));
 
-
+        Collections.sort(nums);
         for (int no : nums){
             System.out.println(no);
         }
