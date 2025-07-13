@@ -34,7 +34,7 @@ class Student implements Comparable<Student>{
 public class Comparator1 {
     public static void main(String[] args) {
 
-        Comparator<Student> com =(i,j)-> i.age>j.age?1:-1;
+        Comparator<Student> com =(i,j)-> i.age>j.age?-1:1;
         
        
         
@@ -44,7 +44,8 @@ public class Comparator1 {
         Studs.add(new Student(2, "Ritik"));
         Studs.add(new Student(16, "Devang"));
         Collections.sort(Studs,com);
-        Collections.sort(Studs);
+        // System.out.println(Studs);
+        // Collections.sort(Studs);
         for(Student st: Studs){
             System.out.println(st);
         }
