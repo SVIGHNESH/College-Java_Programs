@@ -1,4 +1,3 @@
-package Concepts;
 
 class PrivateConstructor{
     private PrivateConstructor(){
