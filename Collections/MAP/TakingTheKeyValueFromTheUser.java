@@ -16,7 +16,7 @@ public class TakingTheKeyValueFromTheUser {
         // Input loop
         for(int i = 0; i < n; i++) {
             System.out.print("Enter student name: ");
-            String name = sc.nextLine();
+            String name = sc.next();
             
             System.out.print("Enter marks for " + name + ": ");
 
@@ -36,8 +36,10 @@ public class TakingTheKeyValueFromTheUser {
         } else {
             System.out.println("Student not found!");
         }
+    }finally{
+         sc.close();
     }
         
-        sc.close();
+       
     }
 }

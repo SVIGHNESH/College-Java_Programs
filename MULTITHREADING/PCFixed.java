@@ -43,6 +43,7 @@ class Producer implements Runnable {
     int i = 0;
     while (true) {
       q.put(i++);
+      
     }
   }
 }
@@ -65,8 +66,15 @@ class Consumer implements Runnable {
 class PCFixed {
   public static void main(String args[]) {
     Q q = new Q();
-    new Producer(q);
-    new Consumer(q);
+    Producer p = new Producer(q);
+    Consumer c = new Consumer(q);
+    try {
+      Thread.sleep(100);
+      Thread.sleep(100);
+    } catch (Exception e) {
+        System.out.println("Interrupted Exception is Raised");
+      }
     System.out.println("Press Control-C to stop.");
-  }
+  
+}
 }
